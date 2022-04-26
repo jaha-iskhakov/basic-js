@@ -5,8 +5,6 @@ it.optional = require('../extensions/it-optional');
 Object.freeze(assert);
 
 const dateSample = require('../src/carbon-dating.js');
-
-
 describe('Carbon dating', () => {
   // Presence requirement
   describe('variable presence', () => {
